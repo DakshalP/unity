@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans&display=swap');
+/* Theme color: f50057 */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3 {
+    font-family: Helvetica, serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+h3, li a {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: gray;
+}
+h4 {
+    font-size: 0.6em;
+    text-transform: uppercase;
+    color: #d6d6d654;
+}
+
+.container {
+    margin: 5vw;
+    display: block;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome h1, h3, h4 {
+    margin: 10px;
+    text-align: center;
+}
+.headers {
+    margin: 20px;
+}
+
+.links {
+    margin-top: 70px;
+}
+.links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+.links ul li a {
+    display: inline-block;     
+    position: relative;    
+    z-index: 1;    
+    margin: -2em;
+    padding: 40px;
+    margin: 20px;
+    width: 50vw;
+    border-radius: 20px;
+    transition: box-shadow 1s;
+    box-shadow: 1px 1px 10px #cfcfcf;
+    text-align: center;
+    font-weight: 700;
+}
+.links ul li a:hover {
+    box-shadow: none;
+}
+.links ul li a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: 40vh;
+}
