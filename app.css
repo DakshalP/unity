@@ -69,7 +69,7 @@ h4 {
     font-weight: 700;
 }
 .links ul li a:hover {
-    box-shadow: none;
+    box-shadow: 1px 1px 10px #f50057; 
 }
 .links ul li a {
     text-decoration: none;
