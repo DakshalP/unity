@@ -71,6 +71,10 @@ h4 {
 .links ul li a:hover {
     box-shadow: 1px 1px 10px #f50057; 
 }
+.links ul li a:active {
+    transition: box-shadow 0.2s;
+    box-shadow: 1px 1px 1px 2px #f50057
+}
 .links ul li a {
     text-decoration: none;
 }
