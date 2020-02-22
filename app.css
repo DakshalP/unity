@@ -53,7 +53,7 @@ span.space {
 }
 .fadeInUp {
     opacity: 0;
-    animation: popFade 2s 2s forwards;
+    animation: fadeInUp 2s 2s forwards;
 }
 
 @keyframes popFade {
@@ -179,6 +179,13 @@ span.space {
     z-index: 1;
     position: absolute;
     top: 50%;
+}
+
+#footer {
+    margin: 10px;
+    color:gray; 
+    text-align:center; 
+    display: block;
 }
 
 @media only screen and (max-width: 600px) {
