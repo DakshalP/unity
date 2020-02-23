@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
 /* Theme color: f50057 */
 * {
     margin: 0;
@@ -8,6 +8,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+}
+
+p {
+    font-size: 1.21em;
 }
 
 h1, h3 {
@@ -31,6 +35,23 @@ h4 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.main-content {
+    margin: 50px auto;
+    max-width: 900px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.main-content img {
+    max-width: 100%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.main-content * {
+    margin-top: 30px;
+}
+
+
 
 .info {
     width: 17px;
