@@ -1,5 +1,8 @@
 const fancyText = document.querySelector('.fancy-animate');
 
+function isMobile() {
+    return window.matchMedia("(max-width: 600px)").matches;
+}
 /* Single letter 'fancy' animation*/
 const strText = fancyText.textContent;
 const splitText = strText.split('');
@@ -12,7 +15,7 @@ for(let i=0;i<splitText.length;i++) {
         let currentSpans = fancyText.querySelectorAll('span');
         currentSpans[currentSpans.length-1].innerHTML = "&nbsp";
         //since all letter spans become individual inline blocks, must add line break on smaller screens
-        if(window.matchMedia("(max-width: 600px)").matches){fancyText.innerHTML += "<br>"};
+        if(isMobile()){fancyText.innerHTML += "<br>"};
     }
 }
 
@@ -36,7 +39,7 @@ let timer = setInterval(onTick, 50);
 
 /* Modal */
 const modal = document.querySelector(".modal");
-const trigger = document.querySelector(".info");
+const trigger = document.querySelector(".trigger");
 const closeButton = document.querySelector(".close-button");
 function toggleModal() {
     modal.classList.toggle("show-modal");
@@ -49,3 +52,14 @@ function windowOnClick(event) {
 trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
+
+/* Sidenav */
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = (isMobile()) ? "100%" : "560px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
