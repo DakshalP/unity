@@ -334,11 +334,6 @@ span.space {
     box-shadow: 5px 2px 20px 0px black;
   }
   
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
