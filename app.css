@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lato&display=swap');
 /* Theme color: f50057 */
 * {
     margin: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    font-size: 1.21em;
+    font-size: 18px;
 }
 
 h1, h3 {
@@ -38,17 +38,18 @@ h4 {
 
 .main-content {
     margin: 50px auto;
-    max-width: 900px;
-    line-height: 1.5;
+    max-width: 700px;
+    line-height: 1.7;
     text-align: justify;
+    color: rgb(82, 82, 82);
+    font-weight: 400;
 }
 .main-content img {
     max-width: 100%;
-    border: 3px solid black;
     border-radius: 20px;
 }
 .main-content * {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -68,14 +69,17 @@ span.space {
     white-space: pre;
 }
 
+#tagline {
+    opacity: 0;
+}
+
 .popFade {
     animation-duration: 0.7s;
     animation-name: popFade;
     animation-fill-mode: forwards;
 }
 .fadeInUp {
-    opacity: 0;
-    animation: fadeInUp 2s 2s forwards;
+    animation: fadeInUp 2s 0.5s forwards;
 }
 
 @keyframes popFade {
@@ -322,7 +326,7 @@ span.space {
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
+    height: 100vh; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
