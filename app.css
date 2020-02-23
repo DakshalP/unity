@@ -139,15 +139,17 @@ span.space {
     width: 50vw;
     max-width: 500px;
     border-radius: 20px;
-    transition: box-shadow 1s;
+    transition: all 1s;
     box-shadow: 1px 1px 10px #cfcfcf;
     display: flex;
     flex-direction: row;
 }
 .links ul li:hover {
+    transform: scale(1.05);
     box-shadow: 1px 1px 10px #f50057; 
 }
 .links ul li:active {
+    transform: scale(1.01);
     color: #f50057;
     transition: box-shadow 0.2s;
     box-shadow: 1px 1px 1px 2px #f50057;
