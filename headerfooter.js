@@ -62,6 +62,6 @@ if(header!=null) {
 if(footer!=null) {  
     footer.innerHTML = 
     `
-        <p>Copyright Dakshal P</p>
+        <h3>© Dakshal P</h3>
     `;
 }
