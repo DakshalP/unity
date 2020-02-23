@@ -3,6 +3,7 @@ const fancyText = document.querySelector('.fancy-animate');
 function isMobile() {
     return window.matchMedia("(max-width: 600px)").matches;
 }
+
 /* Single letter 'fancy' animation*/
 const strText = fancyText.textContent;
 const splitText = strText.split('');
@@ -21,10 +22,13 @@ for(let i=0;i<splitText.length;i++) {
 
 function onTick(){
     const span = fancyText.querySelectorAll('span')[char];
+    const tagline = document.querySelector("#tagline");
     span.classList.add('popFade');
     char++;
     if(char===splitText.length) {
         complete();
+        //animate tagline to make it appear
+        tagline.classList.add('fadeInUp');
         return;
     }
 }
@@ -32,6 +36,7 @@ function onTick(){
 function complete() {
     clearInterval(timer);
     timer = null;
+
 }
 
 let char = 0;
