@@ -61,10 +61,10 @@ window.addEventListener("click", windowOnClick);
 /* Sidenav */
 /* Set the width of the side navigation to 250px */
 function openNav() {
-    document.getElementById("mySidenav").style.width = (isMobile()) ? "100%" : "560px";
+    document.getElementById("mySidenav").style.height = "100vh";
   }
   
   /* Set the width of the side navigation to 0 */
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.height = "0";
   }

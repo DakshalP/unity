@@ -243,7 +243,7 @@ span.space {
     cursor: pointer;
     border-bottom-left-radius: 0.25em;
     border-bottom-right-radius: 0.25em;
-    color: white;
+    background-color: white;
     font-weight: 700;
     color: #f50057;
     border: 2px solid #f50057;
@@ -283,6 +283,9 @@ span.space {
     }
     #header .home, .menu {
         margin: 0 10px;
+    }
+    .sidenav {
+        max-width: 100%;
     }
 }
 
@@ -341,8 +344,8 @@ span.space {
 
 /* The side navigation menu */
 .sidenav {
-    height: 100vh; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    height: 0; /* 0 height - change this with JavaScript */
+    width: 560px; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
