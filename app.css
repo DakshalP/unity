@@ -271,6 +271,14 @@ span.space {
     display: block;
 }
 
+.note {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
 @media only screen and (max-width: 600px) {
     .link-text {
         margin: 0;
