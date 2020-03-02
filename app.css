@@ -132,17 +132,17 @@ span.space {
     margin: 20px;
 }
 
-.links {
+.list {
     margin-top: 70px;
 }
-.links ul {
+.list ul {
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style-type: none;
     padding: 0;
 }
-.links ul li {
+.list ul li {
     padding: 40px;
     margin: 20px;
     width: 50vw;
@@ -169,7 +169,7 @@ span.space {
     font-size: 1.5em;
     font-weight: 700;
 }
-.link-text {
+.list-text {
     margin-left: 20px;
     width: 100%;
     display: flex;
@@ -178,11 +178,11 @@ span.space {
     align-items: center;
     text-align: center;
 }
-.link-text h2 {
+.list-text h2 {
     display: inline-block;
     font-size: 1.25em;
 }
-.link-text p {
+.list-text p {
     color: gray;
     font-size: 0.6em;
     font-weight: 400;
@@ -272,7 +272,7 @@ span.space {
 }
 
 @media only screen and (max-width: 600px) {
-    .link-text {
+    .list-text {
         margin: 0;
     }
     .thumbnail {

@@ -14,13 +14,13 @@ if(header!=null) {
     <a class="menu" onclick="openNav()">Menu</a>
     <div id="mySidenav" class="sidenav">
         <a class="menu closebtn" onclick="closeNav()">Close</a>
-        <div class="links">
+        <div class="links list">
             <h3>Menu</h3>
             <ul>
                 <a href="one.html">
                     <li>
                         <img class="thumbnail" src="images/one.svg">
-                        <div class="link-text">
+                        <div class="list-text">
                             <h2>Intro to Unity</h2>
                             <p>What is Unity? Find out here.</p>
                         </div>
@@ -29,7 +29,7 @@ if(header!=null) {
                 <a href="#">
                     <li>
                         <img class="thumbnail" src="images/two.svg">
-                        <div class="link-text">
+                        <div class="list-text">
                             <h2>Starting tutorials</h2>
                             <p>Here are the videos we'll use.</p>
                         </div>
@@ -38,7 +38,7 @@ if(header!=null) {
                 <a href="#">
                     <li>
                         <img class="thumbnail" src="images/three.svg">
-                        <div class="link-text">
+                        <div class="list-text">
                             <h2>Moving models</h2>
                             <p>Go from 3DSMax to Unity.</p>
                         </div>
@@ -47,7 +47,7 @@ if(header!=null) {
                 <a href="#">
                     <li>
                         <img class="thumbnail" src="images/four.svg">
-                        <div class="link-text">
+                        <div class="list-text">
                             <h2>Shortcuts</h2>
                             <p>Find a list of keyboard shortcuts here.</p>
                         </div>
