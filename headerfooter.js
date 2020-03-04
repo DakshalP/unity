@@ -26,7 +26,7 @@ if(header!=null) {
                         </div>
                     </li>
                 </a>
-                <a href="#">
+                <a href="two.html">
                     <li>
                         <img class="thumbnail" src="images/two.svg">
                         <div class="list-text">
