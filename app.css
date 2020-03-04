@@ -153,6 +153,9 @@ span.space {
     display: flex;
     flex-direction: row;
 }
+.list.inset ul li {
+    box-shadow: inset 1px 1px 10px #cfcfcf;
+}
 .links ul li:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 10px #f50057; 
