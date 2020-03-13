@@ -49,7 +49,7 @@ if(header!=null) {
                         <img class="thumbnail" src="images/four.svg">
                         <div class="list-text">
                             <h2>Shortcuts</h2>
-                            <p>Keyboard shortcuts can make your life easier.</p>
+                            <p>Keyboard shortcuts make your life easier.</p>
                         </div>
                     </li>
                 </a>
