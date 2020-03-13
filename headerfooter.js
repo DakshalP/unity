@@ -44,7 +44,7 @@ if(header!=null) {
                         </div>
                     </li>
                 </a>
-                <a href="#">
+                <a href="four.html">
                     <li>
                         <img class="thumbnail" src="images/four.svg">
                         <div class="list-text">
@@ -53,6 +53,10 @@ if(header!=null) {
                         </div>
                     </li>
                 </a>
+            </ul>
+            <h3>Extras</h3>
+            <ul>
+                <a href="installUnity.html"><li>How to install Unity</li></a>
             </ul>
         </div>
     </div>

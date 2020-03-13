@@ -53,8 +53,19 @@ h4 {
     max-width: 100%;
     border-radius: 20px;
 }
+.main-content .highlight {
+    display: inline-block;
+    background-color: #f5f1004d;
+    padding: 0px 10px;
+}
 .main-content * {
     margin-top: 20px;
+}
+.main-content ul ul {
+    margin-top: 0px;
+}
+.main-content ul ul li {
+    margin-top: 10px;;
 }
 
 
@@ -132,6 +143,10 @@ span.space {
     margin: 20px;
 }
 
+ul {
+    margin-left: 20px;
+}
+
 .list {
     margin-top: 70px;
 }
@@ -159,6 +174,10 @@ span.space {
 .links ul li:hover {
     transform: scale(1.05);
     box-shadow: 1px 1px 10px #f50057; 
+}
+.links.inset ul li:hover {
+    transform: scale(0.98);
+    box-shadow: inset 1px 1px 10px #f50057; 
 }
 .links ul li:active {
     transform: scale(1.01);
