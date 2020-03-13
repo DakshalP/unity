@@ -67,6 +67,13 @@ if(header!=null) {
 if(footer!=null) {  
     footer.innerHTML = 
     `
-        <h3>Coded by Dakshal P | © Dakshal P</h3>
+        <div class="modal">
+            <div class="modal-content">
+                <img src="images/dev.png" style="width: 160px; height: 160px">
+                <h4>Made by <strong>Dakshal P</strong> for <strong>NBTHS</strong> Gaming and Animation Classes</h4>
+                <div class="close-button">Ok</div>
+            </div>
+        </div>
+        <a style="cursor: pointer" class="trigger"><h3>Coded by Dakshal P | © Dakshal P</h3></a>
     `;
 }
