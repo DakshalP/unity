@@ -35,7 +35,7 @@ if(header!=null) {
                         </div>
                     </li>
                 </a>
-                <a href="#">
+                <a href="three.html">
                     <li>
                         <img class="thumbnail" src="images/three.svg">
                         <div class="list-text">
