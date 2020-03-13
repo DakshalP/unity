@@ -49,7 +49,7 @@ if(header!=null) {
                         <img class="thumbnail" src="images/four.svg">
                         <div class="list-text">
                             <h2>Shortcuts</h2>
-                            <p>Find a list of keyboard shortcuts here.</p>
+                            <p>Keyboard shortcuts can make your life easier.</p>
                         </div>
                     </li>
                 </a>
@@ -57,6 +57,7 @@ if(header!=null) {
             <h3>Extras</h3>
             <ul>
                 <a href="installUnity.html"><li>How to install Unity</li></a>
+                <a href="installVsCode.html"><li>How to install Vs Code</li></a>
             </ul>
         </div>
     </div>
